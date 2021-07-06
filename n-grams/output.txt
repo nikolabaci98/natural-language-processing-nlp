@@ -1,0 +1,76 @@
+This file includes the answers for questions 1-7:
+
+Question 1:
+The number of unique words in the training corpus before replacing with <unk>: 83045
+The number of unique words in the training corpus after replacing with <unk>: 41739
+
+Question 2:
+The number of tokens in the training corpus is: 2568210
+
+Question 3:
+The percentage of test words that did not occur in training is: 0.036028823058446756
+The percentage of test tokens that did not occur in training is: 0.01603346113628442
+
+Question 4:
+The percentage of bigram types that did not appear in training set is: 0.253276955602537
+The percentage of bigram tokens that did not appear in training set is: 0.21704586493318886
+
+Question 5:
+Unigram log-probability parameters:
+i	7339 	-8.450963962476674
+look	613 	-12.032588480668235
+forward	474 	-12.403588495460756
+to	53048 	-5.597321004705777
+hearing	209 	-13.584972612278133
+your	1217 	-11.043218291645285
+reply	13 	-17.591892026217923
+.	87894 	-4.868854680279238
+</s>	100000 	-4.682691269922203
+
+unigram_model (s) = -8.450963962476674 + -12.032588480668235 + -12.403588495460756 + -5.597321004705777 + -13.584972612278133 + -11.043218291645285 + -17.591892026217923 + -4.868854680279238 + -4.682691269922203
+
+unigram_log_prob_(sentance) = -90.25609082365423
+
+Bigram MLE log-probability parameters:
+<s> i	2006 	-5.639534583824631
+i look	15 	-8.93447718627382
+look forward	34 	-4.172280422440442
+forward to	100 	-2.2448870591235344
+to hearing	6 	-13.110048238932082
+hearing your	0 	0
+your reply	0 	0
+reply .	0 	0
+. </s>	82888 	-0.08460143194821208
+
+bigram_mle_model (s) = -5.639534583824631 + -8.93447718627382 + -4.172280422440442 + -2.2448870591235344 + -13.110048238932082 + NaN + NaN + NaN + -0.08460143194821208
+
+bigram_mle_log_prob_(sentance) = undefined
+
+Bigram Add One log-probability parameters:
+<s> i	2007 	-6.142052348726812
+i look	16 	-11.582788837823436
+look forward	35 	-10.240859462550434
+forward to	101 	-8.707188259410588
+to hearing	7 	-13.725046665121754
+hearing your	1 	-15.35631440692812
+your reply	1 	-15.390572037471506
+reply .	1 	-15.349557686620518
+. </s>	82889 	-0.6451804614204727
+
+bigram_add_one_model (s) = -6.142052348726812 + -11.582788837823436 + -10.240859462550434 + -8.707188259410588 + -13.725046665121754 + -15.35631440692812 + -15.390572037471506 + -15.349557686620518 + -0.6451804614204727
+
+bigram_add_one_log_prob_(sentance) = -97.13956016607362
+
+
+Question 6:
+Perplexity of the sentance above in all three models:
+unigram_perplexity_(sentance) = 1044.3970236213092
+bigram_mle_perplexity_(sentance) = undefined
+bigram_add_one_perplexity_(sentance) = 839.83145676326
+
+
+Question 7:
+Perplexity of the test set in all three models:
+unigram_perplexity_(test set) = 1141.6431838536487
+bigram_mle_perplexity_(test set) = undefined
+bigram_add_one_perplexity_(test set) = 1820.8651778339497
