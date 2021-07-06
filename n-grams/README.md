@@ -32,7 +32,7 @@ In `model_traning.py` creates 3 models:
 2. A bigram with maximum likelihood probability
 3. A bigram with add-one smoothing
 
-## Output
+## Results
 1. __How many word types (unique words) are there in the training corpus? Include the padding symbols and the unknown token.__  
 The number of unique words in the training corpus before replacing with <unk>: 83045  
 The number of unique words in the training corpus after replacing with <unk>: 41739
