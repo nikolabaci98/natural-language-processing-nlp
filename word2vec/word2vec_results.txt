@@ -1,0 +1,15 @@
+Similarity between 'dirty' and 'clean' 0.39004794
+Similarity between 'big' and 'dirty' 0.26532975
+Similarity between 'big' and 'large' 0.47743818
+Similarity between 'big' and 'small' 0.5139071
+Most similar to ['polite'] [('respectful', 0.7142271399497986), ('gracious', 0.6687819957733154), ('courteous', 0.6527359485626221), ('attentive', 0.6101087331771851), ('thoughtful', 0.6003850102424622)]
+Most similar to ['orange'] [('ventura', 0.4977732300758362), ('emerald', 0.4960307776927948), ('lackawanna', 0.4904917776584625), ('dutchess', 0.4894387423992157), ('peach', 0.47929438948631287)]
+
+
+
+Similarity between 'dirty' and 'clean' 0.41984832
+Similarity between 'big' and 'dirty' 0.36361307
+Similarity between 'big' and 'large' 0.62136835
+Similarity between 'big' and 'small' 0.6922639
+Most similar to ['polite'] [('timid', 0.7893770933151245), ('respectful', 0.7845202684402466), ('gracious', 0.7500736713409424), ('forthright', 0.725963830947876), ('courteous', 0.7243958711624146)]
+Most similar to ['orange'] [('fringed', 0.6587183475494385), ('angostura', 0.6585032343864441), ('upturned', 0.6291470527648926), ('alamo', 0.6282759308815002), ('blue', 0.6272799968719482)]
