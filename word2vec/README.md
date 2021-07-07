@@ -1,5 +1,5 @@
 # Word2vec Project
-### Author: Nikola Baci
+### Author: Nikola Baci 
 
 ## Project Overview
 In this project we build a word2vec model which will help us to find similar words by understand the context of each word. For this project, I follow the 
